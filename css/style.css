@@ -564,6 +564,9 @@ section:nth-child(even) {
   border-radius: 0.5rem;
   padding: 2rem;
 }
+.contact {
+    min-width: 200px;
+}
 
 .blogs .box-container .box .image {
   height: 20rem;
@@ -708,7 +711,7 @@ section:nth-child(even) {
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 450px) {
   html {
     font-size: 50%;
   }
