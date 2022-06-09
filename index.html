@@ -279,12 +279,23 @@
 
         <form id="form" >
             <h3>book appointment</h3>
-            <input type="text"  id="name" name="user_name" placeholder="your name" class="box" required>
-            <input type="number"  id="phone" name="user_number" placeholder="your number" class="box" required>
-            <input type="email"  id="email" name="user_email" placeholder="your email"  class="box">
-            <input type="date"  id="date" name="user_date" class="box">
+
+            <label for="name"> <span> Your Name</span>
+            <input type="text"  id="name" name="user_name"  class="box" required>
+            </label>
+            <label for="phone"> <span> Your Number</span>
+                <input type="number"  id="phone" name="user_number"  class="box" required>
+            </label>
+            <label for="email"> <span> Your Email</span>
+                <input type="email"  id="email" name="user_email"   class="box">
+            </label>
+            <label for="date">
+                <input type="date"  id="date" name="user_date" class="box">
+            </label>
             <!-- <input type="text" placeholder="message" class="box"> -->
-            <textarea id="message"  name="user_message" class="box" rows="4" placeholder="How can we help you?"></textarea>
+            <label for="message" id="messages"> <span> How can we help you?</span>
+                <textarea id="message"  name="user_message" class="box" rows="4" ></textarea>
+            </label>
             <input type="submit" value="book now" class="btn">
         </form>
         
