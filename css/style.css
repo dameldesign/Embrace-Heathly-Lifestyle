@@ -563,10 +563,9 @@ section:nth-child(even) {
   box-shadow: var(--box-shadow);
   border-radius: 0.5rem;
   padding: 2rem;
+  min-width: 300px;
 }
-.contact {
-    min-width: 250px !important;
-}
+
 
 .blogs .box-container .box .image {
   height: 20rem;
