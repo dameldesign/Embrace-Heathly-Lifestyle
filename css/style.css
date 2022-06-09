@@ -554,7 +554,7 @@ section:nth-child(even) {
 
 .blogs .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
 }
 
@@ -563,6 +563,7 @@ section:nth-child(even) {
   box-shadow: var(--box-shadow);
   border-radius: 0.5rem;
   padding: 2rem;
+
 }
 
 
